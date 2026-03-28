@@ -1,0 +1,109 @@
+{"ts":"01:16:50","msg":"RegisterDID requested: did:trustid:efds-mnaledfv | owner: EFDS","type":"info"}
+{"ts":"01:16:50","msg":"Proposing to DBS, Grab, Singtel peers...","type":"info"}
+{"ts":"01:16:52","msg":"✓ RegisterDID committed — DID: did:trustid:efds-mnaledfv","type":"ok"}
+{"ts":"01:16:52","msg":"✓ ProofChain genesis entry created. BehaviouralAttestation-v1","type":"ok"}
+{"ts":"01:16:52","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP","type":"ok"}
+{"ts":"01:18:36","msg":"RegisterDID requested: did:trustid:logtest123 | owner: logtest","type":"info"}
+{"ts":"01:18:36","msg":"Proposing to DBS, Grab, Singtel peers...","type":"info"}
+{"ts":"01:18:39","msg":"✓ RegisterDID committed — DID: did:trustid:logtest123","type":"ok"}
+{"ts":"01:18:39","msg":"✓ ProofChain genesis entry created. BehaviouralAttestation-v1","type":"ok"}
+{"ts":"01:18:39","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP","type":"ok"}
+{"ts":"01:22:28","msg":"IssueCredential: identity_verified → identity_verified by SingpassMSP","type":"info"}
+{"ts":"01:22:28","msg":"Target DID: did:trustid:efds-mnaledfv","type":"info"}
+{"ts":"01:22:28","msg":"Singpass MyInfo OIDC simulated — identity_verified","type":"warn"}
+{"ts":"01:22:28","msg":"Requesting endorsement from consortium peers...","type":"info"}
+{"ts":"01:22:30","msg":"✓ W3C Verifiable Credential issued by SingpassMSP","type":"ok"}
+{"ts":"01:22:30","msg":"✓ BehaviouralProof SHA-256 hash appended to ProofChain","type":"ok"}
+{"ts":"01:22:30","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP · committed","type":"ok"}
+{"ts":"01:22:44","msg":"IssueCredential: account_age_2yr → JGH by SingtelMSP","type":"info"}
+{"ts":"01:22:44","msg":"Target DID: did:trustid:efds-mnaledfv","type":"info"}
+{"ts":"01:22:44","msg":"Requesting endorsement from consortium peers...","type":"info"}
+{"ts":"01:22:46","msg":"✓ W3C Verifiable Credential issued by SingtelMSP","type":"ok"}
+{"ts":"01:22:46","msg":"✓ BehaviouralProof SHA-256 hash appended to ProofChain","type":"ok"}
+{"ts":"01:22:46","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP · committed","type":"ok"}
+{"ts":"01:25:45","msg":"RegisterDID requested: did:trustid:sam-mnalpu62 | owner: sam","type":"info"}
+{"ts":"01:25:45","msg":"Proposing to DBS, Grab, Singtel peers...","type":"info"}
+{"ts":"01:25:48","msg":"✓ RegisterDID committed — DID: did:trustid:sam-mnalpu62","type":"ok"}
+{"ts":"01:25:48","msg":"✓ ProofChain genesis entry created. BehaviouralAttestation-v1","type":"ok"}
+{"ts":"01:25:48","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP","type":"ok"}
+{"ts":"01:26:45","msg":"IssueCredential: identity_verified → identity_verified by SingpassMSP","type":"info"}
+{"ts":"01:26:45","msg":"Target DID: did:trustid:sam-mnalpu62","type":"info"}
+{"ts":"01:26:45","msg":"Singpass MyInfo OIDC simulated — identity_verified","type":"warn"}
+{"ts":"01:26:45","msg":"Requesting endorsement from consortium peers...","type":"info"}
+{"ts":"01:26:48","msg":"✓ W3C Verifiable Credential issued by SingpassMSP","type":"ok"}
+{"ts":"01:26:48","msg":"✓ BehaviouralProof SHA-256 hash appended to ProofChain","type":"ok"}
+{"ts":"01:26:48","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP · committed","type":"ok"}
+{"ts":"01:28:30","msg":"IssueCredential: income_verified → verifer by GrabMSP","type":"info"}
+{"ts":"01:28:30","msg":"Target DID: did:trustid:sam-mnalpu62","type":"info"}
+{"ts":"01:28:30","msg":"Requesting endorsement from consortium peers...","type":"info"}
+{"ts":"01:28:33","msg":"✓ W3C Verifiable Credential issued by GrabMSP","type":"ok"}
+{"ts":"01:28:33","msg":"✓ BehaviouralProof SHA-256 hash appended to ProofChain","type":"ok"}
+{"ts":"01:28:33","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP · committed","type":"ok"}
+{"ts":"02:00:56","msg":"RegisterDID requested: did:trustid:tom-lee-mnamyzki | owner: tom lee","type":"info"}
+{"ts":"02:00:56","msg":"Proposing to DBS, Grab, Singtel peers...","type":"info"}
+{"ts":"02:01:02","msg":"✓ RegisterDID committed — DID: did:trustid:tom-lee-mnamyzki","type":"ok"}
+{"ts":"02:01:02","msg":"✓ ProofChain genesis entry created. BehaviouralAttestation-v1","type":"ok"}
+{"ts":"02:01:02","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP","type":"ok"}
+{"ts":"02:02:28","msg":"IssueCredential: identity_verified → identity_verified by SingpassMSP","type":"info"}
+{"ts":"02:02:28","msg":"Target DID: did:trustid:tom-lee-mnamyzki","type":"info"}
+{"ts":"02:02:28","msg":"Singpass MyInfo OIDC simulated — identity_verified","type":"warn"}
+{"ts":"02:02:28","msg":"Requesting endorsement from consortium peers...","type":"info"}
+{"ts":"02:02:32","msg":"✓ W3C Verifiable Credential issued by SingpassMSP","type":"ok"}
+{"ts":"02:02:32","msg":"✓ BehaviouralProof SHA-256 hash appended to ProofChain","type":"ok"}
+{"ts":"02:02:32","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP · committed","type":"ok"}
+{"ts":"02:03:04","msg":"IssueCredential: loan_repayment_12mo → perfect by DbsMSP","type":"info"}
+{"ts":"02:03:04","msg":"Target DID: did:trustid:tom-lee-mnamyzki","type":"info"}
+{"ts":"02:03:04","msg":"Requesting endorsement from consortium peers...","type":"info"}
+{"ts":"02:03:06","msg":"✓ W3C Verifiable Credential issued by DbsMSP","type":"ok"}
+{"ts":"02:03:06","msg":"✓ BehaviouralProof SHA-256 hash appended to ProofChain","type":"ok"}
+{"ts":"02:03:06","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP · committed","type":"ok"}
+{"ts":"02:03:29","msg":"IssueCredential: income_verified → SGD_5000_monthly by GrabMSP","type":"info"}
+{"ts":"02:03:29","msg":"Target DID: did:trustid:tom-lee-mnamyzki","type":"info"}
+{"ts":"02:03:29","msg":"Requesting endorsement from consortium peers...","type":"info"}
+{"ts":"02:03:31","msg":"✓ W3C Verifiable Credential issued by GrabMSP","type":"ok"}
+{"ts":"02:03:31","msg":"✓ BehaviouralProof SHA-256 hash appended to ProofChain","type":"ok"}
+{"ts":"02:03:31","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP · committed","type":"ok"}
+{"ts":"02:03:53","msg":"IssueCredential: telco_bills_paid_24mo → 24_months_paid by SingtelMSP","type":"info"}
+{"ts":"02:03:53","msg":"Target DID: did:trustid:tom-lee-mnamyzki","type":"info"}
+{"ts":"02:03:53","msg":"Requesting endorsement from consortium peers...","type":"info"}
+{"ts":"02:03:56","msg":"✓ W3C Verifiable Credential issued by SingtelMSP","type":"ok"}
+{"ts":"02:03:56","msg":"✓ BehaviouralProof SHA-256 hash appended to ProofChain","type":"ok"}
+{"ts":"02:03:56","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP · committed","type":"ok"}
+{"ts":"02:07:09","msg":"Oracle triggered for did:trustid:tom-lee-mnamyzki","type":"info"}
+{"ts":"02:07:09","msg":"Reading behaviour events from ledger...","type":"info"}
+{"ts":"02:07:09","msg":"Extracting 6 behavioural features...","type":"info"}
+{"ts":"02:26:12","msg":"RegisterDID requested: did:trustid:tomlee-mnanvl0m | owner: tomlee","type":"info"}
+{"ts":"02:26:12","msg":"Proposing to DBS, Grab, Singtel peers...","type":"info"}
+{"ts":"02:26:16","msg":"✓ RegisterDID committed — DID: did:trustid:tomlee-mnanvl0m","type":"ok"}
+{"ts":"02:26:16","msg":"✓ ProofChain genesis entry created. BehaviouralAttestation-v1","type":"ok"}
+{"ts":"02:26:16","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP","type":"ok"}
+{"ts":"02:26:29","msg":"IssueCredential: identity_verified → identity_verified by SingpassMSP","type":"info"}
+{"ts":"02:26:29","msg":"Target DID: did:trustid:tomlee-mnanvl0m","type":"info"}
+{"ts":"02:26:29","msg":"Singpass MyInfo OIDC simulated — identity_verified","type":"warn"}
+{"ts":"02:26:29","msg":"Requesting endorsement from consortium peers...","type":"info"}
+{"ts":"02:26:31","msg":"✓ W3C Verifiable Credential issued by SingpassMSP","type":"ok"}
+{"ts":"02:26:31","msg":"✓ BehaviouralProof SHA-256 hash appended to ProofChain","type":"ok"}
+{"ts":"02:26:31","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP · committed","type":"ok"}
+{"ts":"02:27:08","msg":"IssueCredential: savings_history → dsf by DbsMSP","type":"info"}
+{"ts":"02:27:08","msg":"Target DID: did:trustid:tomlee-mnanvl0m","type":"info"}
+{"ts":"02:27:08","msg":"Requesting endorsement from consortium peers...","type":"info"}
+{"ts":"02:27:11","msg":"✓ W3C Verifiable Credential issued by DbsMSP","type":"ok"}
+{"ts":"02:27:11","msg":"✓ BehaviouralProof SHA-256 hash appended to ProofChain","type":"ok"}
+{"ts":"02:27:11","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP · committed","type":"ok"}
+{"ts":"02:27:27","msg":"IssueCredential: grabpay_active → sdf by GrabMSP","type":"info"}
+{"ts":"02:27:27","msg":"Target DID: did:trustid:tomlee-mnanvl0m","type":"info"}
+{"ts":"02:27:27","msg":"Requesting endorsement from consortium peers...","type":"info"}
+{"ts":"02:27:29","msg":"✓ W3C Verifiable Credential issued by GrabMSP","type":"ok"}
+{"ts":"02:27:29","msg":"✓ BehaviouralProof SHA-256 hash appended to ProofChain","type":"ok"}
+{"ts":"02:27:29","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP · committed","type":"ok"}
+{"ts":"02:28:05","msg":"IssueCredential: account_age_2yr → sdgd by SingtelMSP","type":"info"}
+{"ts":"02:28:05","msg":"Target DID: did:trustid:tomlee-mnanvl0m","type":"info"}
+{"ts":"02:28:05","msg":"Requesting endorsement from consortium peers...","type":"info"}
+{"ts":"02:28:08","msg":"✓ W3C Verifiable Credential issued by SingtelMSP","type":"ok"}
+{"ts":"02:28:08","msg":"✓ BehaviouralProof SHA-256 hash appended to ProofChain","type":"ok"}
+{"ts":"02:28:08","msg":"✓ Endorsed by DBSMSP · GrabMSP · SingtelMSP · committed","type":"ok"}
+{"ts":"02:28:18","msg":"Oracle triggered for did:trustid:tomlee-mnanvl0m","type":"info"}
+{"ts":"02:28:18","msg":"Reading behaviour events from ledger...","type":"info"}
+{"ts":"02:28:18","msg":"Extracting 6 behavioural features...","type":"info"}
+{"ts":"02:47:25","msg":"ApplyForLoan: LOAN-1774723644657 | DID: did:trustid:tom-lee-mnamyzki","type":"info"}
+{"ts":"02:47:25","msg":"Requesting endorsement from DBS · Grab · Singtel...","type":"info"}

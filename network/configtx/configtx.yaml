@@ -1,0 +1,128 @@
+Organizations:
+  - &OrdererOrg
+    Name: OrdererOrg
+    ID: OrdererMSP
+    MSPDir: ../organizations/ordererOrganizations/trustid.com/msp
+    Policies:
+      Readers: {Type: Signature, Rule: "OR('OrdererMSP.member')"}
+      Writers: {Type: Signature, Rule: "OR('OrdererMSP.member')"}
+      Admins:  {Type: Signature, Rule: "OR('OrdererMSP.admin')"}
+
+  - &DBS
+    Name: DBSMSP
+    ID: DBSMSP
+    MSPDir: ../organizations/peerOrganizations/dbs.trustid.com/msp
+    Policies:
+      Readers: {Type: Signature, Rule: "OR('DBSMSP.admin','DBSMSP.peer','DBSMSP.client')"}
+      Writers: {Type: Signature, Rule: "OR('DBSMSP.admin','DBSMSP.client')"}
+      Admins:  {Type: Signature, Rule: "OR('DBSMSP.admin')"}
+      Endorsement: {Type: Signature, Rule: "OR('DBSMSP.peer')"}
+    AnchorPeers:
+      - Host: peer0.dbs.trustid.com
+        Port: 7051
+
+  - &Grab
+    Name: GrabMSP
+    ID: GrabMSP
+    MSPDir: ../organizations/peerOrganizations/grab.trustid.com/msp
+    Policies:
+      Readers: {Type: Signature, Rule: "OR('GrabMSP.admin','GrabMSP.peer','GrabMSP.client')"}
+      Writers: {Type: Signature, Rule: "OR('GrabMSP.admin','GrabMSP.client')"}
+      Admins:  {Type: Signature, Rule: "OR('GrabMSP.admin')"}
+      Endorsement: {Type: Signature, Rule: "OR('GrabMSP.peer')"}
+    AnchorPeers:
+      - Host: peer0.grab.trustid.com
+        Port: 8051
+
+  - &Singtel
+    Name: SingtelMSP
+    ID: SingtelMSP
+    MSPDir: ../organizations/peerOrganizations/singtel.trustid.com/msp
+    Policies:
+      Readers: {Type: Signature, Rule: "OR('SingtelMSP.admin','SingtelMSP.peer','SingtelMSP.client')"}
+      Writers: {Type: Signature, Rule: "OR('SingtelMSP.admin','SingtelMSP.client')"}
+      Admins:  {Type: Signature, Rule: "OR('SingtelMSP.admin')"}
+      Endorsement: {Type: Signature, Rule: "OR('SingtelMSP.peer')"}
+    AnchorPeers:
+      - Host: peer0.singtel.trustid.com
+        Port: 9051
+
+  - &Singpass
+    Name: SingpassMSP
+    ID: SingpassMSP
+    MSPDir: ../organizations/peerOrganizations/singpass.trustid.com/msp
+    Policies:
+      Readers: {Type: Signature, Rule: "OR('SingpassMSP.admin','SingpassMSP.peer','SingpassMSP.client')"}
+      Writers: {Type: Signature, Rule: "OR('SingpassMSP.admin','SingpassMSP.client')"}
+      Admins:  {Type: Signature, Rule: "OR('SingpassMSP.admin')"}
+      Endorsement: {Type: Signature, Rule: "OR('SingpassMSP.peer')"}
+    AnchorPeers:
+      - Host: peer0.singpass.trustid.com
+        Port: 10051
+
+Capabilities:
+  Channel: &ChannelCapabilities
+    V2_0: true
+  Orderer: &OrdererCapabilities
+    V2_0: true
+  Application: &ApplicationCapabilities
+    V2_5: true
+
+Application: &ApplicationDefaults
+  Organizations:
+  Policies:
+    Readers: {Type: ImplicitMeta, Rule: "ANY Readers"}
+    Writers: {Type: ImplicitMeta, Rule: "ANY Writers"}
+    Admins:  {Type: ImplicitMeta, Rule: "MAJORITY Admins"}
+    LifecycleEndorsement: {Type: ImplicitMeta, Rule: "MAJORITY Endorsement"}
+    Endorsement: {Type: ImplicitMeta, Rule: "MAJORITY Endorsement"}
+  Capabilities:
+    <<: *ApplicationCapabilities
+
+Orderer: &OrdererDefaults
+  OrdererType: etcdraft
+  Addresses:
+    - orderer.trustid.com:7050
+  EtcdRaft:
+    Consenters:
+      - Host: orderer.trustid.com
+        Port: 7050
+        ClientTLSCert: ../organizations/ordererOrganizations/trustid.com/orderers/orderer.trustid.com/tls/server.crt
+        ServerTLSCert: ../organizations/ordererOrganizations/trustid.com/orderers/orderer.trustid.com/tls/server.crt
+  BatchTimeout: 2s
+  BatchSize:
+    MaxMessageCount: 10
+    AbsoluteMaxBytes: 99 MB
+    PreferredMaxBytes: 512 KB
+  Organizations:
+  Policies:
+    Readers: {Type: ImplicitMeta, Rule: "ANY Readers"}
+    Writers: {Type: ImplicitMeta, Rule: "ANY Writers"}
+    Admins:  {Type: ImplicitMeta, Rule: "MAJORITY Admins"}
+    BlockValidation: {Type: ImplicitMeta, Rule: "ANY Writers"}
+  Capabilities:
+    <<: *OrdererCapabilities
+
+Channel: &ChannelDefaults
+  Policies:
+    Readers: {Type: ImplicitMeta, Rule: "ANY Readers"}
+    Writers: {Type: ImplicitMeta, Rule: "ANY Writers"}
+    Admins:  {Type: ImplicitMeta, Rule: "MAJORITY Admins"}
+  Capabilities:
+    <<: *ChannelCapabilities
+
+Profiles:
+  TrustIDChannel:
+    Consortium: TrustIDConsortium
+    <<: *ChannelDefaults
+    Orderer:
+      <<: *OrdererDefaults
+      Organizations:
+        - *OrdererOrg
+    Application:
+      <<: *ApplicationDefaults
+      Organizations:
+        - *DBS
+        - *Grab
+        - *Singtel
+        - *Singpass

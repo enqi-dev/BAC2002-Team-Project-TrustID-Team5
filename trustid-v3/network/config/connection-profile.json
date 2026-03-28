@@ -1,0 +1,20 @@
+{
+  "name": "trustid-network",
+  "version": "1.0.0",
+  "client": {
+    "organization": "DBS",
+    "connection": { "timeout": { "peer": { "endorser": "300" } } }
+  },
+  "organizations": {
+    "DBS":      { "mspid": "DBSMSP",      "peers": ["peer0.dbs.trustid.com"] },
+    "Grab":     { "mspid": "GrabMSP",     "peers": ["peer0.grab.trustid.com"] },
+    "Singtel":  { "mspid": "SingtelMSP",  "peers": ["peer0.singtel.trustid.com"] },
+    "Singpass": { "mspid": "SingpassMSP", "peers": ["peer0.singpass.trustid.com"] }
+  },
+  "peers": {
+    "peer0.dbs.trustid.com":      { "url": "grpcs://peer0.dbs.trustid.com:7051" },
+    "peer0.grab.trustid.com":     { "url": "grpcs://peer0.grab.trustid.com:8051" },
+    "peer0.singtel.trustid.com":  { "url": "grpcs://peer0.singtel.trustid.com:9051" },
+    "peer0.singpass.trustid.com": { "url": "grpcs://peer0.singpass.trustid.com:10051" }
+  }
+}

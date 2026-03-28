@@ -1,0 +1,39 @@
+OrdererOrgs:
+  - Name: Orderer
+    Domain: trustid.com
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: orderer
+
+PeerOrgs:
+  - Name: DBS
+    Domain: dbs.trustid.com
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+    Users:
+      Count: 2
+
+  - Name: Grab
+    Domain: grab.trustid.com
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+    Users:
+      Count: 2
+
+  - Name: Singtel
+    Domain: singtel.trustid.com
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+    Users:
+      Count: 2
+
+  - Name: Singpass
+    Domain: singpass.trustid.com
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+    Users:
+      Count: 2

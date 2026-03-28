@@ -1,0 +1,4 @@
+[Oracle] Commands:
+  node oracle.js score <did>       — score a single DID
+  node oracle.js train <roundID>   — run full training round
+  node oracle.js score-all         — score all demo DIDs

@@ -1,0 +1,78 @@
+{
+  "name": "trustid-network",
+  "version": "1.0.0",
+  "client": {
+    "organization": "DBS",
+    "connection": {
+      "timeout": {
+        "peer": {
+          "endorser": "300"
+        }
+      }
+    }
+  },
+  "organizations": {
+    "DBS": {
+      "mspid": "DBSMSP",
+      "peers": [
+        "peer0.dbs.trustid.com"
+      ]
+    },
+    "Grab": {
+      "mspid": "GrabMSP",
+      "peers": [
+        "peer0.grab.trustid.com"
+      ]
+    },
+    "Singtel": {
+      "mspid": "SingtelMSP",
+      "peers": [
+        "peer0.singtel.trustid.com"
+      ]
+    },
+    "Singpass": {
+      "mspid": "SingpassMSP",
+      "peers": [
+        "peer0.singpass.trustid.com"
+      ]
+    }
+  },
+  "peers": {
+    "peer0.dbs.trustid.com": {
+      "url": "grpcs://peer0.dbs.trustid.com:7051",
+      "tlsCACerts": {
+        "pem": "-----BEGIN CERTIFICATE-----\nMIICVDCCAfqgAwIBAgIRAMIi0ykOsxVeLiBXJA2mrJswCgYIKoZIzj0EAwIwdDEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGDAWBgNVBAoTD2Ricy50cnVzdGlkLmNvbTEeMBwGA1UEAxMVdGxz\nY2EuZGJzLnRydXN0aWQuY29tMB4XDTI2MDMyMTA1MDgwMFoXDTM2MDMxODA1MDgw\nMFowdDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT\nDVNhbiBGcmFuY2lzY28xGDAWBgNVBAoTD2Ricy50cnVzdGlkLmNvbTEeMBwGA1UE\nAxMVdGxzY2EuZGJzLnRydXN0aWQuY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcD\nQgAET9mUj5Mwrz0A0EhW3Ku/d3Hx7YlfvI7yeHbXXLCoUyLKIe2j3hn9mcIPfMss\nnpoRP7pBNYS1KmOo8nrgXEgICaNtMGswDgYDVR0PAQH/BAQDAgGmMB0GA1UdJQQW\nMBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MCkGA1UdDgQi\nBCBAk0BMHNWpMswo8vpvMuRBSYhXDRCLFU42sovaLozNOjAKBggqhkjOPQQDAgNI\nADBFAiBeSzXlbHma2unsC4xvKjcV/i/M4Omrajme3OEDHHXDhwIhALepUM3trfe+\nUGRkbqON0i8asTP8+NpZuCK+v/HyD2bJ\n-----END CERTIFICATE-----\n"
+      },
+      "grpcOptions": {
+        "ssl-target-name-override": "peer0.dbs.trustid.com"
+      }
+    },
+    "peer0.grab.trustid.com": {
+      "url": "grpcs://peer0.grab.trustid.com:8051",
+      "tlsCACerts": {
+        "pem": "-----BEGIN CERTIFICATE-----\nMIICVzCCAf6gAwIBAgIRANbnYiQKnDF0miKa0dUHtLcwCgYIKoZIzj0EAwIwdjEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGTAXBgNVBAoTEGdyYWIudHJ1c3RpZC5jb20xHzAdBgNVBAMTFnRs\nc2NhLmdyYWIudHJ1c3RpZC5jb20wHhcNMjYwMzIxMDUwODAwWhcNMzYwMzE4MDUw\nODAwWjB2MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UE\nBxMNU2FuIEZyYW5jaXNjbzEZMBcGA1UEChMQZ3JhYi50cnVzdGlkLmNvbTEfMB0G\nA1UEAxMWdGxzY2EuZ3JhYi50cnVzdGlkLmNvbTBZMBMGByqGSM49AgEGCCqGSM49\nAwEHA0IABKRXNHzRfcNiZoQtkb3zuEY5odzH8Py11/MgBU/adDQVu2GWqiyYnhIF\nxwt7c+2q1kxXrO1l/wuDDpfcRSLT+uSjbTBrMA4GA1UdDwEB/wQEAwIBpjAdBgNV\nHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDwYDVR0TAQH/BAUwAwEB/zApBgNV\nHQ4EIgQgXo09pIavmh5nyYa7w819UuzzU93M4+z0z3c4gz1jfCMwCgYIKoZIzj0E\nAwIDRwAwRAIgfBO/kLfvk0clnf+QuSOWtbFKeKgT8bW/yFDy7zdInFUCIGeklTWe\nJO9AHmyVzkvwMfNzeWrPrg8SAAjMerwd1ewC\n-----END CERTIFICATE-----\n"
+      },
+      "grpcOptions": {
+        "ssl-target-name-override": "peer0.grab.trustid.com"
+      }
+    },
+    "peer0.singtel.trustid.com": {
+      "url": "grpcs://peer0.singtel.trustid.com:9051",
+      "tlsCACerts": {
+        "pem": "-----BEGIN CERTIFICATE-----\nMIICZTCCAgqgAwIBAgIRALnmGK5SAdBbkVIh57kOSgMwCgYIKoZIzj0EAwIwfDEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xHDAaBgNVBAoTE3Npbmd0ZWwudHJ1c3RpZC5jb20xIjAgBgNVBAMT\nGXRsc2NhLnNpbmd0ZWwudHJ1c3RpZC5jb20wHhcNMjYwMzIxMDUwODAwWhcNMzYw\nMzE4MDUwODAwWjB8MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEW\nMBQGA1UEBxMNU2FuIEZyYW5jaXNjbzEcMBoGA1UEChMTc2luZ3RlbC50cnVzdGlk\nLmNvbTEiMCAGA1UEAxMZdGxzY2Euc2luZ3RlbC50cnVzdGlkLmNvbTBZMBMGByqG\nSM49AgEGCCqGSM49AwEHA0IABC1IBZ3i9vrJ8fskD9UgPTx24nz8MS5kVbT2tKwp\nsz2XHE5Bx5Q+3dkt2kpUQaYxxFAmBQiifQxu2KprPosMv26jbTBrMA4GA1UdDwEB\n/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDwYDVR0TAQH/\nBAUwAwEB/zApBgNVHQ4EIgQgZv0CgJmUmboa9eXGUgBjJHuL7HluQk8Zd+SCar+X\nAcQwCgYIKoZIzj0EAwIDSQAwRgIhAJb8pkd4PzEDsxfpO0FMWAtiV5Mf7Cqp33vd\npFmYw0o6AiEAk4vJzsJvr89wJ3UO34BYTz7iRd8HVf8a8ELHeuZ9fhI=\n-----END CERTIFICATE-----\n"
+      },
+      "grpcOptions": {
+        "ssl-target-name-override": "peer0.singtel.trustid.com"
+      }
+    },
+    "peer0.singpass.trustid.com": {
+      "url": "grpcs://peer0.singpass.trustid.com:10051",
+      "tlsCACerts": {
+        "pem": "-----BEGIN CERTIFICATE-----\nMIICaDCCAg6gAwIBAgIRAP7Ly2js0e2ZgeXR0xw3WWEwCgYIKoZIzj0EAwIwfjEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xHTAbBgNVBAoTFHNpbmdwYXNzLnRydXN0aWQuY29tMSMwIQYDVQQD\nExp0bHNjYS5zaW5ncGFzcy50cnVzdGlkLmNvbTAeFw0yNjAzMjEwNTA4MDBaFw0z\nNjAzMTgwNTA4MDBaMH4xCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlh\nMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMR0wGwYDVQQKExRzaW5ncGFzcy50cnVz\ndGlkLmNvbTEjMCEGA1UEAxMadGxzY2Euc2luZ3Bhc3MudHJ1c3RpZC5jb20wWTAT\nBgcqhkjOPQIBBggqhkjOPQMBBwNCAASTFf3Cn3OIPJQAD4Wy8fLcAEgDb3pPi9ho\nzomjr3OCpz8oFuinOyd8lkYlZCLiJJZ8RDfYQEHwZBLPopnz94F/o20wazAOBgNV\nHQ8BAf8EBAMCAaYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMA8GA1Ud\nEwEB/wQFMAMBAf8wKQYDVR0OBCIEIB2aq8a3OsHWq+YPcQxfxw+OZ/OoBClOvCBr\n24al/xcBMAoGCCqGSM49BAMCA0gAMEUCIQCFXX4o8CNPOTiUZfiQTEXqMfgeglpC\nJ+3qHnRKWNQfuwIgdrVeIdt/UnMq6yXRzAFx9su/X/fq8IfaUR/v7Tv5zOA=\n-----END CERTIFICATE-----\n"
+      },
+      "grpcOptions": {
+        "ssl-target-name-override": "peer0.singpass.trustid.com"
+      }
+    }
+  }
+}

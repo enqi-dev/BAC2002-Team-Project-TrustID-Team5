@@ -1,0 +1,775 @@
+[00:45:01] Model 1 (Kaggle RF) loaded from disk
+[00:45:01] Model 2 (Synthetic RF) loaded from disk
+[00:45:01] [Scorer] Running on http://localhost:5001
+ * Serving Flask app 'scorer'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.28.71.202:5001
+Press CTRL+C to quit
+127.0.0.1 - - [29/Mar/2026 00:45:04] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:45:07] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:45:27] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:45:27] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:45:30] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:45:33] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:45:45] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:45:45] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:45:48] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:45:51] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:45:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:45:58] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:00] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:05] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:06] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:11] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:15] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:16] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:19] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:22] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:29] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:32] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:34] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:36] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:40] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:42] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:48] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:48] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:51] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:57] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:46:57] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:00] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:05] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:08] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:09] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:14] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:17] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:18] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:22] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:26] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:27] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:31] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:35] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:36] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:41] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:44] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:45] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:48] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:51] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:57] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:47:57] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:01] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:03] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:09] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:09] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:12] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:21] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:21] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:26] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:28] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:35] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:35] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:39] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:40] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:44] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:48] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:52] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:52] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:48:56] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:01] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:01] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:04] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:06] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:13] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:13] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:15] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:21] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:21] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:27] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:30] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:30] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:36] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:39] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:39] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:44] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:47] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:48] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:51] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:49:59] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:50:02] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:50:03] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:50:07] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:50:10] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:50:12] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:50:54] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:51:07] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:51:35] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:52:25] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:53:18] "POST /retrain HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:54:34] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:54:34] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:54:39] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:54:42] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:54:43] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:54:45] "POST /retrain HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:54:47] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:54:50] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:54:52] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:54:57] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:54:59] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:02] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:04] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:07] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:11] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:13] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:18] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:20] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:23] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:28] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:36] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:36] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:37] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:40] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:40] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:43] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:46] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:49] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:52] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:55:58] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:01] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:04] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:08] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:11] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:17] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:17] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:22] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:22] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:28] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:31] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:34] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:37] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:40] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:43] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:46] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:49] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:52] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:56:58] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:00] "POST /retrain HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:01] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:04] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:05] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:07] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:10] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:13] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:15] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:19] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:22] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:28] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:31] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:34] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:37] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:40] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:43] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:45] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:49] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:53] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:57:58] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:02] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:04] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:07] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:10] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:13] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:15] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:19] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:22] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:28] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:31] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:34] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:37] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:40] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:42] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:45] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:49] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:52] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:58:58] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:01] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:04] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:07] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:10] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:13] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:17] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:20] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:23] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:30] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:33] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:36] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:40] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:40] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:44] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:47] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:49] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:52] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 00:59:58] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:01] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:05] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:07] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:13] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:13] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:16] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:21] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:23] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:28] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:31] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:34] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:37] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:40] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:00:44] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:04:36] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:04:37] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:04:39] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:04:41] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:04:43] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:04:45] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:04:47] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:04:50] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:04] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:06] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:08] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:10] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:12] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:14] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:16] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:18] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:20] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:22] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:25] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:26] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:29] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:33] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:33] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:39] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:39] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:39] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:42] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:44] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:46] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:49] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:49] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:54] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:05:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:01] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:01] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:01] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:07] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:07] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:08] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:10] "GET /training-log?since=198 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:13] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:14] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:17] "GET /training-log?since=198 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:17] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:22] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:23] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:23] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:28] "GET /training-log?since=198 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:28] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:28] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:37] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:37] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:37] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:38] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:38] "GET /training-log?since=297 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:46] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:46] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:46] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:46] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:53] "GET /training-log?since=297 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:54] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:54] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:06:54] "GET /training-log?since=198 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:03] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:03] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:03] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:03] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:04] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:11] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:11] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:11] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:12] "GET /training-log?since=198 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:19] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:19] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:19] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:20] "GET /training-log?since=198 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:30] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:30] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:31] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:31] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:31] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:42] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:42] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:42] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:42] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:42] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:43] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:50] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:50] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:50] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:51] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:59] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:59] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:07:59] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:02] "GET /training-log?since=198 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:05] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:05] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:06] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:10] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:10] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:11] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:14] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:19] "GET /training-log?since=99 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:19] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:21] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:21] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:21] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:22] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:23] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:31] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:31] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:31] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:35] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:41] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:41] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:42] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:42] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:43] "GET /training-log?since=198 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:45] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:47] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:49] "GET /training-log?since=102 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:51] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:53] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:55] "GET /training-log?since=109 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:57] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:08:59] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:01] "GET /training-log?since=109 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:03] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:10] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:11] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:11] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:18] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:18] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:25] "GET /training-log?since=109 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:26] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:26] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:27] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:34] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:34] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:34] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:34] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:43] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:43] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:48] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:48] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:48] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:53] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:53] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:54] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:54] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:09:54] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:04] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:04] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:05] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:05] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:05] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:10] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:12] "POST /retrain HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:16] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:16] "GET /training-log?since=123 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:16] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:16] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:16] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:17] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:17] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:17] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:22] "GET /training-log?since=393 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:27] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:27] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:27] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:31] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:31] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:33] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:35] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:37] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:54] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:54] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:54] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:56] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:10:58] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:10] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:10] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:10] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:12] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:14] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:16] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:18] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:20] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:22] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:24] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:26] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:28] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:30] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:32] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:34] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:39] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:39] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:43] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:43] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:45] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:48] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:54] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:55] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:55] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:59] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:11:59] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:05] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:05] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:05] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:12] "GET /training-log?since=262 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:12] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:12] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:13] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:20] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:20] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:20] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:20] "GET /training-log?since=393 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:29] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:30] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:30] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:30] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:30] "GET /training-log?since=262 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:35] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:38] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:39] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:39] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:40] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:48] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:48] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:48] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:48] "GET /training-log?since=262 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:56] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:56] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:12:56] "GET /training-log?since=393 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:05] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:05] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:05] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:06] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:09] "GET /training-log?since=393 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:10] "GET /training-log?since=393 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:14] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:15] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:15] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:18] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:19] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:24] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:30] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:31] "GET /training-log?since=131 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:31] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:35] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:13:50] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:14:37] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:16:28] "POST /retrain HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:16:34] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:16:36] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:16:55] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:22:08] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:22:16] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:22:31] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:22:49] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:23:13] "GET /metrics HTTP/1.1" 200 -
+[00:51:51] Retrain requested: model=both
+[00:51:51] === MODEL 1: Transaction Fraud Detector (Kaggle) ===
+[00:51:51] Loading Kaggle dataset from /mnt/c/Users/enqi3/Downloads/creditcard.csv/creditcard.csv...
+[00:51:56] Dataset loaded: 284,807 rows, fraud rate: 0.173%
+[00:51:57] Scaling Amount and Time features...
+[00:51:57] Splitting train/test (80/20)...
+[00:51:57] Applying SMOTE to balance 578:1 class imbalance...
+[00:51:57] Post-SMOTE train size: 250,196 rows
+[00:51:57] Fitting Random Forest (100 estimators, max_depth=10)...
+[00:51:57] This takes ~60-90 seconds — please wait...
+[00:52:38] Retrain requested: model=both
+[00:52:38] === MODEL 1: Transaction Fraud Detector (Kaggle) ===
+[00:52:38] Loading Kaggle dataset from /mnt/c/Users/enqi3/Downloads/creditcard.csv/creditcard.csv...
+[00:53:13] Evaluating on test set...
+[00:53:14] Model 1 Results:
+[00:53:14]   ROC-AUC:   0.9771
+[00:53:14]   F1 Score:  0.5743
+[00:53:14]   Accuracy:  0.9978
+[00:53:14]   Precision: 0.4293
+[00:53:14]   Recall:    0.8673
+[00:53:14] Model 1 saved to disk.
+[00:53:14] === MODEL 2: Identity Trust Scorer (Synthetic Behavioural) ===
+[00:53:14] Generating synthetic behavioural profiles...
+[00:53:14] Dataset: 2,400 rows | Fraud: 16.7%
+[00:53:14] Applying SMOTE...
+[00:53:14] Post-SMOTE train size: 3,200 rows
+[00:53:14] Fitting Random Forest (200 estimators)...
+[00:53:17] Dataset loaded: 284,807 rows, fraud rate: 0.173%
+[00:53:17] Model 2 Results:
+[00:53:17]   ROC-AUC:   1.0
+[00:53:17]   F1 Score:  1.0
+[00:53:17]   Accuracy:  1.0
+[00:53:17]   Precision: 1.0
+[00:53:17]   Recall:    1.0
+[00:53:17]   Top feature: tx_interval_cv
+[00:53:18] Model 2 saved to disk.
+[00:53:18] Scaling Amount and Time features...
+[00:53:18] Splitting train/test (80/20)...
+[00:53:18] Applying SMOTE to balance 578:1 class imbalance...
+[00:53:19] Post-SMOTE train size: 250,196 rows
+[00:53:19] Fitting Random Forest (100 estimators, max_depth=10)...
+[00:53:19] This takes ~60-90 seconds — please wait...
+[00:54:42] Evaluating on test set...
+[00:54:43] Model 1 Results:
+[00:54:43]   ROC-AUC:   0.9771
+[00:54:43]   F1 Score:  0.5743
+[00:54:43]   Accuracy:  0.9978
+[00:54:43]   Precision: 0.4293
+[00:54:43]   Recall:    0.8673
+[00:54:43] Model 1 saved to disk.
+[00:54:43] === MODEL 2: Identity Trust Scorer (Synthetic Behavioural) ===
+[00:54:43] Generating synthetic behavioural profiles...
+[00:54:43] Dataset: 2,400 rows | Fraud: 16.7%
+[00:54:43] Applying SMOTE...
+[00:54:43] Post-SMOTE train size: 3,200 rows
+[00:54:43] Fitting Random Forest (200 estimators)...
+[00:54:45] Model 2 Results:
+[00:54:45]   ROC-AUC:   1.0
+[00:54:45]   F1 Score:  1.0
+[00:54:45]   Accuracy:  1.0
+[00:54:45]   Precision: 1.0
+[00:54:45]   Recall:    1.0
+[00:54:45]   Top feature: tx_interval_cv
+[00:54:45] Model 2 saved to disk.
+[00:55:45] Retrain requested: model=both
+[00:55:45] === MODEL 1: Transaction Fraud Detector (Kaggle) ===
+[00:55:45] Loading Kaggle dataset from /mnt/c/Users/enqi3/Downloads/creditcard.csv/creditcard.csv...
+[00:55:49] Dataset loaded: 284,807 rows, fraud rate: 0.173%
+[00:55:49] Scaling Amount and Time features...
+[00:55:49] Splitting train/test (80/20)...
+[00:55:49] Applying SMOTE to balance 578:1 class imbalance...
+[00:55:50] Post-SMOTE train size: 250,196 rows
+[00:55:50] Fitting Random Forest (100 estimators, max_depth=10)...
+[00:55:50] This takes ~60-90 seconds — please wait...
+[00:56:57] Evaluating on test set...
+[00:56:58] Model 1 Results:
+[00:56:58]   ROC-AUC:   0.9771
+[00:56:58]   F1 Score:  0.5743
+[00:56:58]   Accuracy:  0.9978
+[00:56:58]   Precision: 0.4293
+[00:56:58]   Recall:    0.8673
+[00:56:58] Model 1 saved to disk.
+[00:56:58] === MODEL 2: Identity Trust Scorer (Synthetic Behavioural) ===
+[00:56:58] Generating synthetic behavioural profiles...
+[00:56:58] Dataset: 2,400 rows | Fraud: 16.7%
+[00:56:58] Applying SMOTE...
+[00:56:58] Post-SMOTE train size: 3,200 rows
+[00:56:58] Fitting Random Forest (200 estimators)...
+[00:57:00] Model 2 Results:
+[00:57:00]   ROC-AUC:   1.0
+[00:57:00]   F1 Score:  1.0
+[00:57:00]   Accuracy:  1.0
+[00:57:00]   Precision: 1.0
+[00:57:00]   Recall:    1.0
+[00:57:00]   Top feature: tx_interval_cv
+[00:57:00] Model 2 saved to disk.
+[01:08:46] Retrain requested: model=both
+[01:08:46] === MODEL 1: Transaction Fraud Detector (Kaggle) ===
+[01:08:46] Loading Kaggle dataset from /mnt/c/Users/enqi3/Downloads/creditcard.csv/creditcard.csv...
+[01:08:51] Dataset loaded: 284,807 rows, fraud rate: 0.173%
+[01:08:51] Scaling Amount and Time features...
+[01:08:51] Splitting train/test (80/20)...
+[01:08:51] Applying SMOTE to balance 578:1 class imbalance...
+[01:08:52] Post-SMOTE train size: 250,196 rows
+[01:08:52] Fitting Random Forest (100 estimators, max_depth=10)...
+[01:08:52] This takes ~60-90 seconds — please wait...
+[01:10:09] Evaluating on test set...
+[01:10:10] Model 1 Results:
+[01:10:10]   ROC-AUC:   0.9771
+[01:10:10]   F1 Score:  0.5743
+[01:10:10]   Accuracy:  0.9978
+[01:10:10]   Precision: 0.4293
+[01:10:10]   Recall:    0.8673
+[01:10:10] Model 1 saved to disk.
+[01:10:10] === MODEL 2: Identity Trust Scorer (Synthetic Behavioural) ===
+[01:10:10] Generating synthetic behavioural profiles...
+[01:10:10] Dataset: 2,400 rows | Fraud: 16.7%
+[01:10:10] Applying SMOTE...
+[01:10:10] Post-SMOTE train size: 3,200 rows
+[01:10:10] Fitting Random Forest (200 estimators)...
+[01:10:12] Model 2 Results:
+[01:10:12]   ROC-AUC:   1.0
+[01:10:12]   F1 Score:  1.0
+[01:10:12]   Accuracy:  1.0
+[01:10:12]   Precision: 1.0
+[01:10:12]   Recall:    1.0
+[01:10:12]   Top feature: tx_interval_cv
+[01:10:12] Model 2 saved to disk.
+[01:15:09] Retrain requested: model=both
+[01:15:09] === MODEL 1: Transaction Fraud Detector (Kaggle) ===
+[01:15:09] Loading Kaggle dataset from /mnt/c/Users/enqi3/Downloads/creditcard.csv/creditcard.csv...
+[01:15:14] Dataset loaded: 284,807 rows, fraud rate: 0.173%
+[01:15:14] Scaling Amount and Time features...
+[01:15:14] Splitting train/test (80/20)...
+[01:15:14] Applying SMOTE to balance 578:1 class imbalance...
+[01:15:18] Post-SMOTE train size: 250,196 rows
+[01:15:18] Fitting Random Forest (100 estimators, max_depth=10)...
+[01:15:18] This takes ~60-90 seconds — please wait...
+[01:16:26] Evaluating on test set...
+[01:16:27] Model 1 Results:
+[01:16:27]   ROC-AUC:   0.9771
+[01:16:27]   F1 Score:  0.5743
+[01:16:27]   Accuracy:  0.9978
+[01:16:27]   Precision: 0.4293
+[01:16:27]   Recall:    0.8673
+[01:16:27] Model 1 saved to disk.
+[01:16:27] === MODEL 2: Identity Trust Scorer (Synthetic Behavioural) ===
+[01:16:27] Generating synthetic behavioural profiles...
+[01:16:27] Dataset: 2,400 rows | Fraud: 16.7%
+[01:16:27] Applying SMOTE...
+[01:16:27] Post-SMOTE train size: 3,200 rows
+[01:16:27] Fitting Random Forest (200 estimators)...
+[01:16:28] Model 2 Results:
+[01:16:28]   ROC-AUC:   1.0
+[01:16:28]   F1 Score:  1.0
+[01:16:28]   Accuracy:  1.0
+[01:16:28]   Precision: 1.0
+[01:16:28]   Recall:    1.0
+[01:16:28]   Top feature: tx_interval_cv
+[01:16:28] Model 2 saved to disk.
+[01:22:57] Retrain requested: model=both
+[01:22:57] === MODEL 1: Transaction Fraud Detector (Kaggle) ===
+[01:22:57] Loading Kaggle dataset from /mnt/c/Users/enqi3/Downloads/creditcard.csv/creditcard.csv...
+[01:23:01] Dataset loaded: 284,807 rows, fraud rate: 0.173%
+[01:23:01] Scaling Amount and Time features...
+[01:23:01] Splitting train/test (80/20)...
+[01:23:01] Applying SMOTE to balance 578:1 class imbalance...
+[01:23:03] Post-SMOTE train size: 250,196 rows
+[01:23:03] Fitting Random Forest (100 estimators, max_depth=10)...
+[01:23:03] This takes ~60-90 seconds — please wait...
+[01:23:48] Retrain requested: model=both
+[01:23:48] === MODEL 1: Transaction Fraud Detector (Kaggle) ===
+[01:23:48] Loading Kaggle dataset from /mnt/c/Users/enqi3/Downloads/creditcard.csv/creditcard.csv...
+[01:24:14] Dataset loaded: 284,807 rows, fraud rate: 0.173%
+[01:24:20] Scaling Amount and Time features...
+[01:24:20] Splitting train/test (80/20)...
+[01:24:21] Applying SMOTE to balance 578:1 class imbalance...
+[01:24:22] Evaluating on test set...
+[01:24:23] Model 1 Results:
+[01:24:23]   ROC-AUC:   0.9771
+[01:24:23]   F1 Score:  0.5743
+[01:24:23]   Accuracy:  0.9978
+[01:24:23]   Precision: 0.4293
+[01:24:23]   Recall:    0.8673
+127.0.0.1 - - [29/Mar/2026 01:24:26] "POST /retrain HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:24:37] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:25:33] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:25:49] "POST /retrain HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:25:50] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:17] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:18] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:22] "GET /training-log?since=200 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:22] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:27] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:28] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:28] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:33] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:51] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:51] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:53] "GET /training-log?since=200 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:55] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:26:58] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:02] "GET /training-log?since=200 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:03] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:07] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:07] "GET /training-log?since=200 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:11] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:12] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:12] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:15] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:19] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:19] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:25] "GET /training-log?since=400 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:25] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:30] "GET /training-log?since=400 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:30] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:30] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:37] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:37] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:37] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:43] "GET /training-log?since=400 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:43] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:43] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:43] "GET /training-log?since=400 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:46] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:47] "GET /training-log?since=200 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:49] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:51] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:27:55] "GET /training-log?since=200 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:28:00] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:28:00] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:28:00] "GET /training-log?since=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:28:03] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:28:34] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:31:56] "POST /retrain HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:32:02] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:36:44] "POST /retrain HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:36:49] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:39:54] "POST /retrain HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:39:58] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:50:25] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:52:26] "POST /retrain HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:52:32] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:58:28] "GET /training-log HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:58:30] "GET /training-log HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:58:32] "GET /training-log HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:58:35] "GET /training-log HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:58:37] "GET /training-log HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:58:39] "GET /training-log HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:58:41] "GET /training-log HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:58:43] "GET /training-log HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 01:58:45] "GET /training-log HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:01:07] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:02:33] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:03:08] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:03:34] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:03:57] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:07:11] "POST /score HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:18:53] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:19:32] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:20:18] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:25:40] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:26:19] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:28:11] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [29/Mar/2026 02:28:20] "POST /score HTTP/1.1" 200 -
