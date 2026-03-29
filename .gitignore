@@ -6,3 +6,5 @@ logs/
 *.log
 *.tar.gz
 /tmp/
+frontend/node_modules/
+oracle/node_modules/
